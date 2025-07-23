@@ -1,0 +1,29 @@
+{
+  "source": "RemoteOK",
+  "results": [
+    {
+      "title": "Data Analyst",
+      "company": "Acme Corp",
+      "location": "Remote",
+      "url": "https://remoteok.com/job/12345",
+      "tags": [
+        "Python",
+        "SQL",
+        "Remote"
+      ],
+      "published_at": "2025-07-19T09:00:00"
+    },
+    {
+      "title": "EU Project Manager",
+      "company": "Brussels NGO",
+      "location": "Bruxelles",
+      "url": "https://euractiv.com/jobs/pm-eu123",
+      "tags": [
+        "EU",
+        "Funding",
+        "English"
+      ],
+      "published_at": "2025-07-18T12:30:00"
+    }
+  ]
+}
