@@ -1,22 +1,50 @@
-# GPT MODUL – HR AI Career Assistant v1.2
 
-Ova aplikacija omogućuje izradu CV-a, motivacijskog pisma, AI refleksije, evaluacije i traženje poslova.
+# 🤖 GPT MODUL – HR AI Career Assistant (v1.2)
 
-## Pokretanje lokalno
-1. Instaliraj ovisnosti:
-   ```
-   pip install -r requirements.txt
-   ```
-2. Pokreni aplikaciju:
-   ```
-   streamlit run app.py
-   ```
+Napredna AI aplikacija razvijena u Pythonu i Streamlitu za pomoć kandidatima prilikom prijave na posao. Omogućuje generiranje životopisa, motivacijskih pisama, AI refleksije, evaluaciju kandidata i usporedbu s oglasima.
 
-## Moduli uključeni
-- Generiranje životopisa i pisma
-- Analiza oglasa
-- AI refleksija kandidata
-- GDPR evaluacija
-- MODUL 9: Traženje poslova (lokacija, jezik, titula)
+## 🚀 Ključne funkcionalnosti
 
-Autor: Hrvoje Šajković
+- ✅ Vođeni unos podataka o kandidatu
+- 📄 Generiranje profesionalnog CV-a i motivacijskog pisma
+- 🔍 Analiza i usporedba s oglasima za posao
+- 💡 AI refleksija – analiza osobnosti i AI pismenosti
+- 📑 Generiranje HR izvještaja i GDPR arhiviranje
+- 🌐 Višejezična podrška (hrvatski, engleski, češki...)
+- 🔗 Izvoz PDF i dijeljivi linkovi za poslodavce
+- 📦 MODUL 9 – automatsko pretraživanje oglasa za posao
+
+## 🛠️ Tehnički zahtjevi
+
+- Python 3.9+
+- Streamlit
+- OpenAI API
+- Pandas, JSON, Requests
+- Git za verzioniranje
+
+## ▶️ Pokretanje aplikacije lokalno
+
+```bash
+git clone https://github.com/greenscape2024/gpt-modul-hr-v1-2.git
+cd gpt-modul-hr-v1-2
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+## 🧠 Arhitektura
+
+Projekt je podijeljen na module:
+- `app.py` – glavno sučelje
+- `modul9_job_search.py` – MODUL 9 za traženje oglasa
+- `README.md`, `.gitignore` – pomoćne datoteke
+
+## ⚖️ Licenca i korištenje
+
+Ovaj projekt je u edukativne i osobne svrhe. Svaka komercijalna upotreba mora imati dopuštenje autora.
+
+© Hrvoje Šajković 2025
+
+## 🌍 Autor
+
+- 🔗 [greenscape2024 (GitHub)](https://github.com/greenscape2024)
+- 📧 hrvoje.sajkovic@gmail.com
