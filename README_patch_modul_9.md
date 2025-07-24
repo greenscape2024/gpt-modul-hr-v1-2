@@ -5,7 +5,7 @@ Ova zakrpa dodaje **MODUL 9 – Traženje poslova** u vaš `app.py` bez ručnog 
 ---
 
 ## 🛠️ Što sadrži zakrpa:
-- Dodaje gumb **“🔍 Traženje poslova”** u početni izbornik
+ - Dodaje gumb **"🔍 Traženje poslova"** u početni izbornik
 - Poziva funkciju `prikazi_modul_9()` unutar `render_module()`
 - Pretpostavlja da postoji datoteka `modul_9_trazenje_poslova.py` s tom funkcijom
 
